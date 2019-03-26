@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MBanner">
+        <!--滚动时间-->
+        <attr name="mDelayTime" format="integer|reference" />
+        <!--指示器位置-->
+        <attr name="mIndicatorGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="center" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+        <!--是否显示指示器-->
+        <attr name="mShowIndicator" format="boolean" />
+        <!--指示器Margins-->
+        <attr name="mIndicatorStartEndMargins" format="dimension|reference" />
+        <!--指示器距离底部Margins-->
+        <attr name="mIndicatorBottomMargins" format="dimension|reference" />
+        <!--选中图片-->
+        <attr name="mIndicatorActive" format="integer|reference" />
+        <!--未选中图片-->
+        <attr name="mIndicatorInactive" format="integer|reference" />
+        <!--默认显示站位图-->
+        <attr name="mPlaceholder" format="reference" />
+    </declare-styleable>
+</resources>
